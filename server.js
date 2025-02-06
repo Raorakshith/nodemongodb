@@ -3,7 +3,7 @@ const { MongoClient, ObjectId } = require('mongodb'); //
 const cors = require('cors');
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 const url = 'mongodb+srv://RaoDemo:RaoDemo@cluster0.s2mlcov.mongodb.net/';
 const dbName = 'crudDemo';
